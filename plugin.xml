@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-xmlns:android="http://schemas.android.com/apk/res/android"
-id="nl.madebymark.share"
-    version="0.1.1">
-    <name>Share</name>
-    <description>Share</description>
+<plugin
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="cordova-plugin-simpleshare"
+    version="0.2.0"
+    >
+    <name>Native Share</name>
+    <description>Native Share</description>
     <license>Apache 2.0</license>
-    <keywords>share,facebook,twitter</keywords>
+    <keywords>android,ios,share,facebook,twitter</keywords>
     
     <js-module src="www/share.js" name="Share">
         <clobbers target="window.navigator.share" />

@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-simpleshare",
+  "version": "0.2.0",
+  "description": "Cordova plugin for Native Sharing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilrackett/cordova-plugin-simpleshare.git"
+  },
+  "author": "Mark Marijnissen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neilrackett/cordova-plugin-simpleshare/issues"
+  },
+  "homepage": "https://github.com/neilrackett/cordova-plugin-simpleshare#readme"
+}
