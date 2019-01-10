@@ -1,29 +1,30 @@
-cordova-plugin-share
-====================
+Simple Share plugin for Cordova
+===============================
 
-Cordova Plugin to open native "share" popup in Android and iOS
+Cordova Plugin to open native "share" popup in Android and iOS for sending simple data to other apps
 
-### Install
+### Installation
 
-In your phonegap/cordova project, type:
-
-`cordova plugins add https://github.com/markmarijnissen/cordova-plugin-share.git`
+```
+cordova plugins add cordova-plugin-simpleshare
+```
 
 ### Usage
 
-`navigator.share(text,title,mimetype)`
+```javascript
+navigator.share(text, title, mimeType)
+```
 
-* text: Text to share, i.e. "Incredible plugin"
-* title: Title of popup, i.e. "Share this quote" (android only, default: "Share")
-* mimetype: Mimetype, i.e. "image/jpeg" (android only, default: "plain/text")
+* text: Text to share, e.g. "Incredible plugin"
+* title: Title of popup, e.g. "Share this quote" (android only, default: "Share")
+* mimeType: MIME type, e.g. "image/jpeg" (android only, default: "plain/text")
 
 ### More info
 
+* Based on Cordova plugin by [Mark Marijnssen](https://github.com/markmarijnissen/cordova-plugin-share)
 * iOS share code from [stack overflow](http://stackoverflow.com/questions/12546574/using-apple-icons-with-ios-6)
-* Android share code from [here](http://developer.android.com/training/sharing/send.html). Read if you want to understand *mimetype* options.
-* Check out the more elaborate [Social Share plugin from Eddy Verbruggen](https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/)
+* Android share code from [here](http://developer.android.com/training/sharing/send.html); read if you want to understand `mimeType` options
 
 ### License
 
 MIT license
-
